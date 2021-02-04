@@ -1,0 +1,41 @@
+body {
+    /*background-color: rgb(155, 255, 200); color del fondo*/
+     font-family: fantasy;
+     font-weight: 100;
+    /*ancho de la pagina*/
+    max-width: 900px;
+    margin: 0 auto;
+    /* Como las manecillas del reloj
+    margin:  0 auto 0 auto;
+    para cada lado 
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;*/
+}
+nav{
+   width: 100%;
+   height: 160px;
+   background-color: rgb(78, 206, 238);
+}
+
+nav ul li {
+   list-style-type: none;/*sin biñetas*/
+   display: inline-block;
+   transition: 0.8s all;
+   padding: 18px 20px;
+
+}
+nav ul li:hover {
+    background-color: #fff;
+}
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+}
+a:visited{
+    color:rgb(30, 48, 210);
+}
+a:active{
+    color:#e27f0e
+}
